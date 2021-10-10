@@ -1,0 +1,36 @@
+.navbar {
+    border-right: 1px solid #DDD;
+    flex: 1;
+}
+
+.navbar ul li {
+    margin: 30px 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar ul li > div {
+    height: 1px;
+    width: 100%;
+    margin: 10px;
+    background-color: #DDD;
+}
+
+.navbar ul li span {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.badge {
+    margin-left: auto;
+    font-style: normal;
+    background-color: #C3423F;
+    padding: 2px 4px;
+    font-size: .8rem !important;
+    color: #FFF;
+    border-radius: 3px;
+}

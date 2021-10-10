@@ -1,0 +1,10 @@
+.mail {
+    background-color: #0B5351;
+    padding: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.mail > p {
+    color: #FFF;
+}
