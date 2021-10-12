@@ -11,7 +11,7 @@ function Mail() {
 
     const clickMail = () => {
 
-        if (clickedTimes == 0) {
+        if (clickedTimes === 0) {
 
             setclickedTimes(1);
 
